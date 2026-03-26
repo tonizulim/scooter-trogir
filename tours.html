@@ -4,18 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Things to See & Do from Trogir by Scooter | ScooterTrogir</title>
-  <meta name="description" content="Best places to visit from Trogir by scooter. Okrug beach, Split, Kaštela, Klis Fortress, Rogoznica and more. Rent a scooter and explore the Dalmatian coast." />
-  <meta name="keywords" content="things to do Trogir, scooter tour Trogir, Okrug beach scooter, Split day trip scooter, Klis fortress Trogir, Rogoznica scooter, Kaštela scooter tour" />
+  <meta name="description" content="Best places to visit from Trogir by scooter. Okrug beach, Split, Kaštela, Klis Fortress, Rogoznica and more. Rent a scooter and explore the Dalmatian coast from €29/day." />
+  <meta name="keywords" content="things to do Trogir, scooter tour Trogir, Okrug beach scooter, Split day trip scooter, Klis fortress Trogir, Rogoznica scooter, Kaštela scooter tour, Čiovo beaches scooter, Dalmatia scooter trip, scooter routes Croatia" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="ScooterTrogir" />
   <link rel="canonical" href="https://scooter-trogir.com/tours.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://scooter-trogir.com/tours.html" />
   <meta property="og:title" content="Things to See & Do from Trogir by Scooter | ScooterTrogir" />
   <meta property="og:description" content="Okrug beach, Split, Kaštela, Klis Fortress, Rogoznica and more — all reachable by scooter from Trogir." />
-  <meta property="og:image" content="assets/okrug_beach.jpg" />
-  <meta property="og:url" content="https://scooter-trogir.com/tours.html" />
+  <meta property="og:image" content="https://scooter-trogir.com/assets/okrug_beach.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="ScooterTrogir" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Things to See & Do from Trogir by Scooter" />
+  <meta name="twitter:description" content="Okrug beach, Split, Kaštela, Klis Fortress, Rogoznica — explore the Dalmatian coast by scooter." />
+  <meta name="twitter:image" content="https://scooter-trogir.com/assets/okrug_beach.jpg" />
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://scooter-trogir.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Tour Ideas", "item": "https://scooter-trogir.com/tours.html" }
+    ]
+  }
+  </script>
+  <!-- TouristAttraction Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Scooter Tour Ideas from Trogir",
+    "description": "Best places to visit from Trogir by scooter — beaches, fortresses, and coastal towns",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Okrug Beach – 8 km from Trogir", "url": "https://scooter-trogir.com/tours.html#quick-title" },
+      { "@type": "ListItem", "position": 2, "name": "Split – Diocletian's Palace – 30 km from Trogir", "url": "https://scooter-trogir.com/tours.html" },
+      { "@type": "ListItem", "position": 3, "name": "Klis Fortress – 35 km from Trogir", "url": "https://scooter-trogir.com/tours.html" },
+      { "@type": "ListItem", "position": 4, "name": "Kaštela – Seven Castles – 15 km from Trogir", "url": "https://scooter-trogir.com/tours.html" },
+      { "@type": "ListItem", "position": 5, "name": "Rogoznica & Zmajevo Oko – 30 km from Trogir", "url": "https://scooter-trogir.com/tours.html" }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="assets/logo.bmp" />
+  <link rel="icon" type="image/bmp" href="assets/logo.bmp" />
+  <link rel="preload" as="image" href="assets/okrug_beach.jpg" />
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
   <style>
     /* ---- Tours page extras ---- */
     .tours-hero { position:relative; height:340px; overflow:hidden; }
@@ -108,14 +152,22 @@
       </button>
     </div>
     <div class="navbar__mobile" id="mobile-nav" role="menu">
-      <a href="scooters.html" role="menuitem">🛵 Our Scooters</a>
-      <a href="tours.html" role="menuitem">🗺️ Tour Ideas</a>
-      <a href="about.html" role="menuitem">ℹ️ About &amp; Contact</a>
+      <a href="scooters.html" role="menuitem">Our Scooters</a>
+      <a href="tours.html" role="menuitem">Tour Ideas</a>
+      <a href="about.html" role="menuitem">About &amp; Contact</a>
       <a href="tel:+38598780021" class="btn btn-primary" role="menuitem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call +385 98 780 021</a>
       <a href="https://wa.me/38598780021?text=Hi!%20I'd%20like%20to%20rent%20a%20scooter%20in%20Trogir." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" role="menuitem"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp Us</a>
     </div>
   </nav>
 </header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="index.html">Home</a>
+    <span class="breadcrumb__sep" aria-hidden="true">›</span>
+    <span>Tour Ideas</span>
+  </div>
+</nav>
 
 <main>
 
@@ -491,11 +543,16 @@
 
 <footer class="footer">
   <div class="footer__inner">
-    <div class="footer__brand"><strong>ScooterTrogir</strong><p>Local family scooter rental in Trogir, Croatia.</p></div>
+    <div class="footer__brand">
+      <strong>ScooterTrogir</strong>
+      <p>Local family scooter rental in Trogir, Croatia.</p>
+      <p style="margin-top:.4rem; font-size:.75rem; color:rgba(255,255,255,.3);">Hrvatskih žrtava 152, 21218 Seget Donji · <a href="tel:+38598780021" style="color:rgba(255,255,255,.4)">+385 98 780 021</a></p>
+    </div>
     <nav class="footer__links" aria-label="Footer navigation">
       <a href="scooters.html">Scooters</a>
       <a href="tours.html">Tour Ideas</a>
       <a href="about.html">About &amp; Contact</a>
+      <a href="sitemap.xml">Sitemap</a>
     </nav>
   </div>
   <div class="footer__bottom"><p>© 2026 ScooterTrogir. All rights reserved. · <a href="tel:+38598780021" style="color:rgba(255,255,255,.4)">+385 98 780 021</a></p></div>
@@ -505,6 +562,11 @@
   <a href="tel:+38598780021" class="btn btn-primary"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call Now</a>
   <a href="https://wa.me/38598780021?text=Hi!%20I'd%20like%20to%20rent%20a%20scooter%20in%20Trogir." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> WhatsApp</a>
 </div>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/38598780021?text=Hi!%20I'd%20like%20to%20rent%20a%20scooter%20in%20Trogir." target="_blank" rel="noopener noreferrer" class="wa-float" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
 
 <script src="js/main.js" defer></script>
 </body>
